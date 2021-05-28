@@ -21,12 +21,49 @@ body {
     padding-right: 10px;
 }
 
+[class^="background-page"]{
+    padding: 115px 0; 
+}
+
 .col-width-25percents {
     width: 25%;
 }
 
 .col-width-50percents {
     width: 50%;
+}
+
+.main-pages-title-text{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.main-pages-title-underline{
+    margin: 20px auto;
+    width: 90px;
+    background-color: rgba(0, 0, 0, 0.15);
+    text-align: center;
+    height: 5px;
+    border: none;
+}
+
+.main-pages-cols-title{
+    margin: 20px 25px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-pages-cols-description{
+    text-align: center;    
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0 25px;
+    line-height: 24px;
+    margin-top: 20px;
+
 }
 
 .row::after {

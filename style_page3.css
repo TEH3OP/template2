@@ -1,3 +1,54 @@
-.background-third-page{
+.background-page-3{
     background-color: #e7f1f8;
+    color: #3c4761;
 }
+
+
+.main-page-3-title-text>div{
+    font-size: 18px;
+    text-align: center;
+    line-height: 28px;
+}
+
+[class^="main-page-3-service-image"]{
+    height: 180px;
+    width: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 90px;
+    background: gray;
+    margin: 75px auto 0;
+}
+
+.main-page-3-link{
+    font-size: 16px;
+    color: #30bae7;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.main-page-3-social-icons{
+    width: fit-content;
+    margin: 25px auto;
+}
+
+.main-page-3-social-icons>i{
+    background-color: #bdd1df;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.main-page-3-social-icons>i:hover{
+    background-color: gray;
+}
+

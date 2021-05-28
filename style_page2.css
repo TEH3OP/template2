@@ -1,32 +1,16 @@
-.background-second-page,
-.background-third-page
+.background-page-2
 {
-    padding: 115px 0 65px;
     background-color: #17c2a4;
 }
 
-.main-second-title-text{
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-}
 
-.main-second-title-underline{
-    margin: 20px auto;
-    width: 90px;
-    background-color: rgba(0, 0, 0, 0.15);
-    text-align: center;
-    height: 5px;
-    border: none;
-}
-
-.main-second-description-frame>div{
-    font-size: 18px;
+.main-description-frame>div{
     text-align: center;
     line-height: 28px;
+    font-size: 18px;
 }
 
-.main-second-service-frame{
+.main-page-2-service-frame{
     margin-top: 50px;
     display: block;
     text-decoration: none;
@@ -34,43 +18,31 @@
     padding-bottom: 50px;
 }
 
-.main-second-service-frame:hover{
+.main-page-2-service-frame:hover{
     background-color: rgba(0, 0, 0, 0.15);
 }
 
-[class*="main-second-service-image"]{
+[class^="main-page-2-service-image"]{
     height: 180px;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.main-second-service-image1{
+.main-page-2-service-image1{
     background-image: url(pics/flag_icon.png);
 }
 
-.main-second-service-image2{
+.main-page-2-service-image2{
     background-image: url(pics/crayon_icon.png);
 }
 
-.main-second-service-image3{
+.main-page-2-service-image3{
     background-image: url(pics/gears_icon.png);
 }
 
-.main-second-service-image4{
+.main-page-2-service-image4{
     background-image: url(pics/rocket_icon.png);
 }
 
-.main-second-service-title{
-    margin: 20px 25px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-}
 
-.main-second-service-description{
-    text-align: center;    
-    font-size: 16px;
-    font-weight: 300;
-    padding: 0 25px;
-    line-height: 24px;
-}
+

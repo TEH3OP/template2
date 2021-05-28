@@ -1,6 +1,10 @@
-.background-first-page{
+.background-header{
     padding-top: 55px;
-    padding-bottom: 140px;
+    padding-bottom: 50px;
+    background-color: #87509c;
+}
+
+.background-page-1{
     background-color: #87509c;
 }
 
@@ -36,23 +40,24 @@
 .title-navigation-list>li>a:hover {
     background-color: #643a79;
 }
-.main-first-center-text-frame{
-    margin-top: 100px;
-}
-.main-first-center-text-frame>div{
+/* .main-first-center-text-frame{
+    margin-top: 60px;
+} */
+.main-page-1-center-text-frame>div{
     font-size: 42px;
     text-align: center;
-    line-height: 45px;   
+    line-height: 45px;
+    font-weight: bold;
 }
 
 
-.main-first-center-button-frame{
+.main-page-1-center-button-frame{
     padding-top: 55px;
     width: fit-content;    
     margin: 0 auto;
 }
 
-.main-first-center-button-frame>button{
+.main-page-1-center-button-frame>button{
     width: 295px;
     height: 70px;
     text-align: center;
@@ -65,6 +70,6 @@
     border-radius: 5px;
 }
 
-.main-first-center-button-frame>button:hover{
+.main-page-1-center-button-frame>button:hover{
     background-color: rgb(192, 104, 64);
 }
